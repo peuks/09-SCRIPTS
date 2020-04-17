@@ -33,12 +33,20 @@ And you're done !
 Just use the command newsite followed by thename of your project.
 It will create a new folder with your project's name. 
 You will have inside :
-``ll
+
+``
+ll
 -rw-r--r-- 1 skuep skuep    0 17 avril 11:12 application.js
+
 drwxr-xr-x 2 skuep skuep 4096 17 avril 11:12 css
+
 drwxr-xr-x 2 skuep skuep 4096 17 avril 11:12 images
+
 -rw-r--r-- 1 skuep skuep 1350 17 avril 11:12 index.html
--rw-r--r-- 1 skuep skuep  964 17 avril 11:12 style.css``
+
+-rw-r--r-- 1 skuep skuep  964 17 avril 11:12 style.css
+``
+
 
 
 _exemple_
@@ -47,9 +55,11 @@ _exemple_
 
 ![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/terminal.png)
 
+![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/list.png)
+
 ![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/stt.png)
 
-Now you can check the awesome_portfolio project on your browser :)
+Now you can check the awesome_portfolio project with your lovely browser :)
 
 ![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/browser.png)
 
