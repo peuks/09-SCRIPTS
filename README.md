@@ -80,7 +80,7 @@ Feel free to share and modify it <3
 **Last stable version :** 1.0
 
 
-## Auteurs
+## Author
 
 * **VANMAK David** _alias_ [@outout14](https://github.com/peuks)
 
