@@ -44,11 +44,11 @@ drwxr-xr-x 2 skuep skuep 4096 17 avril 11:12 images
 _exemple_
 `newsite awesome_portfolio`        
 
-![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/stt)
+![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/stt.png)
 
 Now you can check the awesome_portfolio project on your browser :)
 
-![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/browser)
+![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/browser.png)
 
 
 ## Made with
