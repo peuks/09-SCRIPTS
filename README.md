@@ -66,9 +66,8 @@ Now you can check the awesome_portfolio project with your lovely browser :)
 
 ## Made with
 
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
 
-_exemples :_
+_Thanks to :_
 * [George Ornbo](https://shapeshed.com/default-styles-for-css/) - Default Styles for CSS
 * [VSCODE](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate) - Inspired by the extension
 * [Css-tricks](https://css-tricks.com/essential-meta-tags-social-media/) - Set default Meta Tags
