@@ -23,6 +23,7 @@ I'm using it with Oh My Zsh
 ``git clone git@github.com:peuks/09-SCRIPTS.git ~/.scripts`` 
 
 _If you have a .aliases files then :_
+
 ``echo "alias newsite='~/.scripts/09-SCRIPTS/.newsite.sh'" >> ~/.aliases``
 
 And you're done !
