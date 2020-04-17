@@ -62,6 +62,7 @@ _exemple_
 Now you can check the awesome_portfolio project with your lovely browser :)
 
 ![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/browser.png)
+![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/browser_2.png)
 
 
 ## Made with
