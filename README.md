@@ -42,7 +42,10 @@ drwxr-xr-x 2 skuep skuep 4096 17 avril 11:12 images
 
 
 _exemple_
+
 `newsite awesome_portfolio`        
+
+![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/terminal.png)
 
 ![alt text](https://raw.githubusercontent.com/peuks/09-SCRIPTS/master/stt.png)
 
