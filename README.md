@@ -19,7 +19,7 @@ I'm using it with Oh My Zsh
 ### Installation
 
 
-``mkdir .scripts``
+``mkdir ~/.scripts``
 ``git clone git@github.com:peuks/09-SCRIPTS.git ~/.scripts`` 
 
 _If you have a .aliases files then :_
