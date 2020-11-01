@@ -1,7 +1,8 @@
 test -d "$1" || mkdir "$1";
 cd `echo "$1"`;
 touch application.js ;
-mkdir css images;
+mkdir css assets;
+wget -P css https://necolas.github.io/normalize.css/8.0.1/normalize.css
 cat > index.html << _EOF_ 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -25,6 +26,7 @@ cat > index.html << _EOF_
     <!-- Facebbok And Twitter Meta END-->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -40,68 +42,77 @@ cat > index.html << _EOF_
 _EOF_
 
 cat > style.css << _EOF_ 
+@import "/css/normalize.css";
 :root {
-    --accent: #EA918D;
-    --accentHover: #DE8A86;
-    /* A little bit darker*/
-    --dark: #304659;
-    --dark80: rgba(48, 79, 89,
-            .8);
+    --clr-1: #2B2D42;
+    --clr-2: #E86A92;
+    --clr-3: #F7E733;
+    --clr-4: #F7F7F9;
+    --clr-5: #41E2BA;
+    --clr-6: #C1666B;
+
+    --dark80: rgba(48, 79, 89, .8);
     --dark60: rgba(48, 79, 89, .6);
-    --light: #F5F9FC;
     --transition: all 0.3s ease 0s;
+
+    --ff: 'Inter', sans-serif;
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --fs-h1: 2.2rem;
+    --fs-h2: 2.0rem;
+    --fs-h3: 1.6rem;
+    --fs-h4: 1.4rem;
+    --fs-h5: 1.2rem;
+    --fs-body: 1rem;
+
 }
 
 /* Reset class*/
 * {
+    box-sizing: inherit;
+}
+
+html {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 html,
 body {
-    height: 100%;
-    /* Tell browser what to do when
-        resize=> overflow */
-    overflow: auto;
-
-
+    width: 100%;
 }
 
 body {
     background:
-        linear-gradient(var(--dark60),
-            var(--dark80)),
-        url("https://source.unsplash.com/daily");
+    linear-gradient(var(--dark60),
+    var(--dark80)),
+    url("https://source.unsplash.com/daily");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Lato", sans-serif;
+    font-family: var(--ff);
 }
 
+/* TYPOGRAPHY */
+
 h1 {
-    font-size: 2.2em;
+    font-size: var(--fs-h1);
 }
 
 h2 {
-    font-size: 2.0em;
+    font-size: var(--fs-h2);
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: var(--fs-h3);
 }
 
 h4 {
-    font-size: 1.6em;
+    font-size: var(--fs-h4);
 }
 
 h5 {
-    font-size: 1.4em;
-}
-
-p {
-    font-size: 1.2em;
+    font-size: var(--fs-h5);
 }
 
 /* Header
@@ -110,6 +121,21 @@ p {
 
 /* Your template */
 
-main {}
+@media screen and (min-with:1400px){
 
+}
+
+
+@media screen and (min-with:960px){
+
+}
+
+@media screen and (min-with:700px){
+
+}
+
+@media screen and (min-with:560px){
+
+}
 _EOF_
+
